@@ -21,9 +21,8 @@ public class Serie {
 
 
 	
-	public void addTemporada(Temporada) {
+	public void addTemporada(Temporada temporada) {
 		temporadas.add(temporada);
-		temporada.setSerie(this);
 	}
 
 }
